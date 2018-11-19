@@ -10,4 +10,4 @@ Instale as Bibliotecas:
 
 Depois só executar, altere o arquivo, teste para capturar imagens de qualquer site:
 
-- python 
+- python capturar_thumbnail_youtube.py
