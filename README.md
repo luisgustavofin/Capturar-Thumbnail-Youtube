@@ -8,6 +8,6 @@ Instale as Bibliotecas:
 
 
 
-Depois só executar, altere o arquivo, teste para capturar imagens de qualquer site:
+Depois só executar ...
 
 - python capturar_thumbnail_youtube.py
