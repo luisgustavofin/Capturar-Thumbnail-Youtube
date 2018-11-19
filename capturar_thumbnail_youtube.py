@@ -13,7 +13,7 @@ print('Digite a URL do canal, já clicado na opção "VÍDEOS"')
 print('EX.: "https://www.youtube.com/user/NOME DO CANAL/videos"')
 digite_a_url = input('\nDigite a URL:\n')
 
-limite_de_downloads = input('\nDigite o limite de downloads:\n')
+limite_de_downloads = input('\nDigite o limite de downloads das imagens:\n')
 limite_de_downloads = int(limite_de_downloads)
 
 
