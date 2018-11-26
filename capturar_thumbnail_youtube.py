@@ -26,14 +26,14 @@ soup = make_soup(digite_a_url)
 lista_imagens = []
 
 
-#COM O "." NO FINAL, A IMAGEM FICA MAIOR, SEM PERDER QUALIDADE;  "AS THUMB FICA NESSA URL LOUCA MESMA"
+#COM O "." NO FINAL, A IMAGEM FICA MAIOR, SEM PERDER QUALIDADE;  "AS THUMB FICA NESSA URL MALUCA MESMO"
 for img in soup.find_all('img'):
     if "i.ytimg.com" in img.get('src'):
         lista_imagens.append(img.get('src') + ".")
 
 
 def download_image(url):
-    name = random.randrange(1,1000) #NOMES DOS ALIATÓRIOS PARA OS ARQUIVOS
+    name = random.randrange(1,1000) #NOMES ALEATÓRIOS PARA OS ARQUIVOS
     full_name = str(name) + ".jpg"
     urllib.request.urlretrieve(url, "C:/Users/PC/Desktop/" + full_name) #LOCAL PARA DEIXAR SALVA AS IMAGENS
         
